@@ -128,7 +128,6 @@ setup(
         'gravis',             # graph visualization
         'networkx>2<3',       # graph creation, export, layout
         'numpy>1.15<2',       # graph layout
-        'pygraphviz>1.5<2',   # graph layout
         'setuptools>=40.0',   # access to package files
     ],
     
