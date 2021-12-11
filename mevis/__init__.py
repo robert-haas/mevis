@@ -18,7 +18,7 @@ __all__ = [
     'store',
 ]
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 from ._internal import convert, create, export, filter, inspect, layout, load, plot, store
