@@ -49,7 +49,7 @@ In Debian and Ubuntu it can be installed with the package manager apt:
 
 .. code-block:: console
 
-   $ sudo apt install graphviz
+   $ sudo apt install graphviz libgraphviz-dev
 
 
 
