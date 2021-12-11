@@ -40,16 +40,24 @@ Optional: Graphviz
 
 mevis requires
 `Graphviz <https://graphviz.org/>`__
+and
+`pygraphviz <https://pygraphviz.github.io/>`__
 to make some additional layout calculation algorithms available.
-It can not be installed via pip, but package managers of various
-operating systems support it. Instructions are available in the
+Graphviz itself can not be installed via pip, but package managers of
+various operating systems support it. Instructions are available in the
 `Graphviz installation guide <https://graphviz.org/download/>`__.
-
-In Debian and Ubuntu it can be installed with the package manager apt:
+In Debian and Ubuntu it can be done with the package manager apt:
 
 .. code-block:: console
 
    $ sudo apt install graphviz libgraphviz-dev
+
+Afterwards pygraphviz can be installed with pip. More detailed instructions are available in the
+`pygraphviz installation guide <https://pygraphviz.github.io/documentation/stable/install.html>`__:
+
+.. code-block:: console
+
+   $ pip install pygraphviz
 
 
 
